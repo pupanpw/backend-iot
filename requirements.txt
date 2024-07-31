@@ -1,0 +1,8 @@
+flask
+#psycopg2-binary  ##if you used raspberry please install sycopg2-binary in termainal
+Flask-SQLAlchemy
+pymysql
+pytz
+paho-mqtt
+python-dotenv
+requests

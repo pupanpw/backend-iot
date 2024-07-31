@@ -1,0 +1,5 @@
+.env
+model/__pycache__/users.cpython-37.pyc
+.test
+__pycache__/app.cpython-37.pyc
+config/__pycache__/config.cpython-37.pyc
