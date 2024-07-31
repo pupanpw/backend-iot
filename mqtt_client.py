@@ -15,7 +15,6 @@ def on_connect(client, userdata, flags, rc):
 
 def on_message(client, userdata, msg):
     payload_str = str(msg.payload, 'utf-8')
-    # print("Topic: ", msg.topic + "\nMessage: " + msg.payload)
     IoTDetail.mqttMsg(str(payload_str))
 
 
